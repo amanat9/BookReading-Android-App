@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mama.logyus.EbooksActivity">
+
+    <ImageView
+        android:id="@+id/book_imgE"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        app:srcCompat="@drawable/pride_and_prejudice"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/pdfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/book_imgE"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/book_imgE"
+        android:layout_below="@id/book_imgE"
+        android:layout_marginTop="170dp"
+        android:text="View e-book"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/firstGrad"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/book_imgE2"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/to_kill_a_mockingbird"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/pdfButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/book_imgE2"
+            android:layout_alignStart="@+id/book_imgE2"
+            android:layout_below="@+id/book_imgE2"
+            android:text="View e-book"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/firstGrad"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/book_imgE3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/pdfButton"
+        android:layout_alignStart="@+id/pdfButton"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/all_the_light_we_cannot_see"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/pdfButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/book_imgE3"
+        android:layout_alignStart="@+id/book_imgE3"
+        android:layout_below="@+id/book_imgE3"
+        android:text="View e-book"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/firstGrad"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/book_imgE3"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="75dp"
+        android:layout_toEndOf="@+id/book_imgE3"
+        android:layout_toRightOf="@+id/book_imgE3"
+        app:srcCompat="@drawable/the_secret_life_of_bees" />
+
+    <Button
+        android:id="@+id/pdfbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img4"
+        android:layout_alignStart="@+id/img4"
+        android:layout_below="@+id/img4"
+        android:text="View e-book"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/firstGrad" />
+
+</RelativeLayout>

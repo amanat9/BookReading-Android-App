@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "553032831669",
+    "firebase_url": "https://myfirebase-3a3d8.firebaseio.com",
+    "project_id": "myfirebase-3a3d8",
+    "storage_bucket": "myfirebase-3a3d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553032831669:android:b2684e5cb3c4fefc",
+        "android_client_info": {
+          "package_name": "com.example.hello.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553032831669-5kl6ufjnhnrjdqrbuudcar12ijdp12te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgNjcd4jhEqhdR7nqNWIrd9ZPVs2pP-bI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553032831669:android:cebfd168c886087a",
+        "android_client_info": {
+          "package_name": "com.example.hello.loginsignui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553032831669-5kl6ufjnhnrjdqrbuudcar12ijdp12te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgNjcd4jhEqhdR7nqNWIrd9ZPVs2pP-bI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553032831669:android:c2db962f700320b4",
+        "android_client_info": {
+          "package_name": "com.example.mama.logyus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553032831669-4i7ca09c10m0keusi8da4go4i03qnl8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mama.logyus",
+            "certificate_hash": "5c01ae2970edfbcc6b386fb9912509d70862824f"
+          }
+        },
+        {
+          "client_id": "553032831669-5kl6ufjnhnrjdqrbuudcar12ijdp12te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgNjcd4jhEqhdR7nqNWIrd9ZPVs2pP-bI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553032831669-5kl6ufjnhnrjdqrbuudcar12ijdp12te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
